@@ -3794,10 +3794,10 @@ Select a condition above to view immediate clinical triage steps.
     }
 
     // Dynamic Cloud & Local API Routing Engine (Works on Vercel, GitHub Pages, Local & Tablet)
-    var CLOUD_GATEWAY_URL = 'https://closer-fans-approve-evaluating.trycloudflare.com';
+    var CLOUD_GATEWAY_URL = 'https://akshay-ai-personal-assistant.vercel.app';
     function apiEndpoint(path) {
       var h = window.location.hostname;
-      if (h === 'localhost' || h === '127.0.0.1' || h === '192.168.0.107' || !h) {
+      if (!h || h === 'localhost' || h === '127.0.0.1' || h === '192.168.0.107' || h.indexOf('vercel.app') !== -1) {
         return path;
       }
       return CLOUD_GATEWAY_URL + path;
@@ -10592,20 +10592,20 @@ Select a condition above to view immediate clinical triage steps.
 
     function copyCloudflareUrl() {
       if (typeof playUISound === 'function') playUISound('click');
-      var url = 'https://closer-fans-approve-evaluating.trycloudflare.com';
+      var url = 'https://akshay-ai-personal-assistant.vercel.app';
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(url).then(function() {
-          if (typeof showToast === 'function') showToast('✓ Global Edge Tunnel Copied!', 'success');
+          if (typeof showToast === 'function') showToast('✓ Live Vercel Production URL Copied!', 'success');
         });
       }
     }
 
     function copyGitHubPagesUrl() {
       if (typeof playUISound === 'function') playUISound('click');
-      var url = 'https://abishekainunes-cmyk.github.io/Project/?';
+      var url = 'https://abishekpranavgv.github.io/quick-curie/';
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(url).then(function() {
-          if (typeof showToast === 'function') showToast('✓ GitHub Pages URL Copied!', 'success');
+          if (typeof showToast === 'function') showToast('✓ GitHub Pages Live URL Copied!', 'success');
         });
       }
     }
