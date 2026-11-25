@@ -1,3 +1,19 @@
+# ⚡ AKSHAY AI Personal Assistant, FinOS & Autonomous Workstation
+
+[![Production Live](https://img.shields.io/badge/Production-Live%20on%20Vercel-success?style=for-the-badge&logo=vercel)](https://akshay-ai-personal-assistant.vercel.app/)
+[![TaxGuard Pro Live](https://img.shields.io/badge/TaxGuard%20Pro-Live%20on%20Vercel-38bdf8?style=for-the-badge&logo=vercel)](https://quick-curie.vercel.app/)
+[![PWA](https://img.shields.io/badge/PWA-100%25%20Offline-34d399?style=for-the-badge&logo=pwa)](https://akshay-ai-personal-assistant.vercel.app/)
+[![FinOS Engine](https://img.shields.io/badge/FinOS-Double--Entry%20Ledger-818cf8?style=for-the-badge)](https://akshay-ai-personal-assistant.vercel.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+> **Akshay AI is a privacy-first, fully autonomous personal AI companion that functions 100% offline, incorporates a deterministic personal finance engine (FinOS), a Jarvis-inspired voice HUD, and automated applied job status tracking.**
+
+* 🌐 **Live Cloud Workstation (Akshay AI v4.0):** [https://akshay-ai-personal-assistant.vercel.app/](https://akshay-ai-personal-assistant.vercel.app/)
+* 🏛️ **TaxGuard Pro (Property Tax AI Engine):** [https://quick-curie.vercel.app/](https://quick-curie.vercel.app/)
+* 💼 **Official Portfolio:** [https://abishekpranavgv.github.io/abishekpranavportfolio/](https://abishekpranavgv.github.io/abishekpranavportfolio/)
+
+---
+
 # Master Engineering & Applied AI Project Portfolio
 
 This central monorepo hosts the production-grade artificial intelligence, data engineering, and business automation platforms developed by **Abishek Pranav G V**.
